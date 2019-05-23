@@ -1,8 +1,10 @@
 # Enhanced Deep Residual Networks for Single Image Super-Resolution
 
+# Requirements
 <br>python 2.7
 <br>Tensorflow 1.9.0
 
+# Usage
 ### I have not use data augment to train this code and the PSNR on Set5 is about 37.70+ lower than the result on paper.
 ### To use this code, you should:
 <br>1. run "train_data_generator_div2k.m" to get train data. 
