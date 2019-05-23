@@ -1,4 +1,4 @@
-# EDSR_Tensorflow
+# Enhanced Deep Residual Networks for Single Image Super-Resolution
 
 <br>python 2.7
 <br>Tensorflow 1.9.0
