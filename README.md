@@ -14,4 +14,3 @@
 <br>5. run "test.py" to test the model.
 
 
-### I find that if use tf.nn.conv2d the performance of this code is very bad. So I use tf.layers.conv2d instead. If you know the reason please tell me (never_look_back6@163.com). Many thanks!
