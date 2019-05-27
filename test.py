@@ -88,7 +88,7 @@ if __name__ == '__main__':
                 shape = low_image.shape
                 img_bic = np.zeros((1, shape[0], shape[1], channels), dtype=float)
                 img_bic[0, :, :, :] = low_image
-
+                shape = original_image.shape
                 output = sess.run([predit], feed_dict={data: img_bic})
                 #输出是一个list
                 output = output[0]
