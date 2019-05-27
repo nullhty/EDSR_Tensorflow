@@ -14,3 +14,8 @@
 <br>5. run "test.py" to test the model.
 
 
+## Update
+### 2019-05-27
+The old code use the low_image.shape to calculate the psnr.
+
+Add a new line of code in "test.py"(91 line) to use the original_image.shape.
